@@ -70,7 +70,7 @@ public class L9 {
 				}
 				try {
 					FileWriter wr = new FileWriter(new File("C:\\Temp\\lab9.html"), false);
-					a = "<!DOCTYPE html><head>    <title>lab9</title></head><body>  <p align='center'><b>Лабораторная работа №9</b></p>  <p align='center'><i>Вариант A</i></p>  <p>Выполнил студент группы <i>ИВТАСбд-11</i> <b>Егоров В.С.</b></p>  <p>Файл: <b>lab9.html</b></p>  <p>Начало слова: <b>А</b></p>  <p>Количество найденных слов: <b>" + count + "</b></p></body></html>";
+					a = "<!DOCTYPE html><head>    <title>lab9</title></head><body>  <p align='center'><b>Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР°СЏ СЂР°Р±РѕС‚Р° в„–9</b></p>  <p align='center'><i>Р’Р°СЂРёР°РЅС‚ A</i></p>  <p>Р’С‹РїРѕР»РЅРёР» СЃС‚СѓРґРµРЅС‚ РіСЂСѓРїРїС‹ <i>РР’РўРђРЎР±Рґ-11</i> <b>Р•РіРѕСЂРѕРІ Р’.РЎ.</b></p>  <p>Р¤Р°Р№Р»: <b>lab9.html</b></p>  <p>РќР°С‡Р°Р»Рѕ СЃР»РѕРІР°: <b>Рђ</b></p>  <p>РљРѕР»РёС‡РµСЃС‚РІРѕ РЅР°Р№РґРµРЅРЅС‹С… СЃР»РѕРІ: <b>" + count + "</b></p></body></html>";
 					wr.write(a);
 					wr.close();
 				} catch (IOException e) {
