@@ -31,14 +31,14 @@
             <input type="text" class="form-control" name="surname" placeholder="Введите фамилию"><br>
             <input type="text" class="form-control" name="login" placeholder="Введите логин"><br>
             <?php
-            if (wrlog == true){
+            if ($wrlog == true){
                 echo("<p>Недопустимая длина логина (от 6 до 15)</p>");
             }
             ?>
             <input type="text" class="form-control" name="mail" placeholder="Введите почту"><br>
             <input type="text" class="form-control" name="password" placeholder="Введите пароль"><br>
             <?php
-            if (wrpas == true){
+            if ($wrpas == true){
                 echo("<p>Недопустимая длина пароля (от 6 до 32)</p>");
             }
             ?>
